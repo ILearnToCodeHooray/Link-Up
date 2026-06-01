@@ -1,0 +1,38 @@
+title: User Research Project
+description: >-
+  Structured user research with the ua-framework — the published record of
+  a project moving from opportunity discovery through specification.
+
+theme: jekyll-theme-cayman
+
+# Files at the top level of docs/ are the UA documents. List them with
+# their generated paths so links from index.md work.
+include:
+  - UA0-PROJECT-STATUS.md
+
+# Exclude things that should never end up on the published site even if
+# they happen to land in docs/.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+
+# Use relative URLs so the site works both on github.io and on a custom
+# domain without reconfiguration.
+relative_permalinks: false
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Default front-matter: every page gets a title from its front-matter or
+# falls back to the H1.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
