@@ -1,7 +1,7 @@
 ---
 title: User Research Project
 layout: home
-last_updated: 2026-05-15
+last_updated: 2026-06-15
 ---
 
 # User Research Project
@@ -15,31 +15,35 @@ documents below are produced as the project moves through those stages.
 
 ## Project status
 
-The project has not been started yet. Run `claude` in the repo, then
-`/ua-framework:start`. The orchestrator will create
-[`UA0-PROJECT-STATUS.md`](UA0-PROJECT-STATUS.md) and route the student
-into the right activity.
-
-Once the project is underway, this section will show the current stage,
-current pass or activity, last status update, and most recent checkpoint —
-maintained by the `update-jekyll-index` skill.
+- **Current stage:** Stage 1 — Positioning & Research Planning (Pass 1)
+- **Current pass / activity:** Pass 1 — drafting the Moore positioning statement (`ua2-positioning-statement.md`)
+- **Last status update:** 2026-06-15
+- **Most recent checkpoint:** Candidate opportunity confirmed: AI-assisted shared calendar for scheduling events with friends, factoring in existing commitments and activity preferences. Stage 0 complete; starting Stage 1 Pass 1.
 
 ## Documents
 
-No UA documents have been produced yet. As the student works through the
-process, the agent will add files under `docs/` and update this index
-with a one-line description of each. The full set of possible documents
-is:
+### Opportunity discovery
 
-- `UA0-PROJECT-STATUS.md` — agent-maintained record of where the project is
-- `ua1-opportunity-notes.md` — friction observed, conversations, candidate opportunity (opportunity discovery)
-- `ua2-positioning-statement.md` — Moore positioning paragraph + per-clause evidence (Stage 1)
-- `ua3-research-plan.md` — desk research plan, sources, log (Stage 1)
-- `ua4-interview-plan.md` — recruiting, question areas, falsification commitments (Stage 1)
-- `ua5-stage-2-analysis.md` — landscape, stakeholders, JTBD and scenarios (Stage 2)
-- `ua6-specification.md` — screen inventory, descriptions, requirements (Stage 3)
-- `wireframes/` — Astro + wired-elements project (Stage 3, lives at repo root)
+- [ua1 — Opportunity notes](ua1-opportunity-notes.md) — Two friction stories: last-minute one-on-one movie planning over text, and group birthday parties skipped entirely because group scheduling felt too hard; includes an early, untested candidate idea for an AI-assisted shared calendar that factors in existing events and activity preferences.
+
+### Stage 1 — Discovery
+
+Confirmed opportunity (AI-assisted shared calendar for scheduling with
+friends). `ua2-positioning-statement.md` (Moore positioning statement) is
+being drafted now, one clause at a time.
+
+### Stage 2 — Analysis
+
+Not started yet.
+
+### Stage 3 — Specification
+
+Not started yet.
+
+### Project status file
+
+- [UA0 — Project status](UA0-PROJECT-STATUS.md) — agent-maintained record of where the project is; currently Stage 0 (opportunity discovery), capturing friction and candidate opportunities
 
 ---
 
-*Maintained by the `update-jekyll-index` skill. Last updated: 2026-05-15.*
+*Maintained by the `update-jekyll-index` skill. Last updated: 2026-06-15.*
