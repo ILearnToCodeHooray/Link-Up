@@ -8,12 +8,12 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 ## Statement
 
-> For *groups of friends (roughly 3–10 people) trying to make social plans together when everyone has busy, separate schedules*
-> who *want to turn a loose "we should hang out" into an actual plan, but so often get stuck in the back-and-forth that the plan — sometimes the whole event — gets abandoned*,
+> For *friend groups with busy, clashing schedules*
+> who *want to make plans together but get stuck in the back-and-forth until the plan falls apart*,
 > *Link Up* is a *group scheduling app*
-> that *gets the get-togethers you actually want to happen to happen — so you spend time with your friends instead of losing the plan to coordination*.
-> Unlike *a group text in WhatsApp or iMessage, where the people have to do all the coordination by hand*,
-> our product *has an AI assistant hold everyone's availability and preferences at once and propose a plan that actually works — taking the back-and-forth off the group entirely*.
+> that *turns "we should hang out" into plans that actually happen*.
+> Unlike *coordinating by hand in a group text*,
+> our product *uses an AI assistant to juggle everyone's availability and preferences and propose a plan that works*.
 
 ---
 
