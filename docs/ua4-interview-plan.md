@@ -10,27 +10,33 @@ The plan format is bullet points of question areas, not a script. Scripts produc
 
 One subsection per planned interviewee.
 
-### [Name 1]
+### Mom (Interview 1 — strong)
 
-- **Who:** [name, relationship, how to reach]
-- **Why worth talking to:** [what about them is relevant to the positioning statement]
-- **Clauses their input most affects:** [list]
+- **Who:** My mom. In person, this week.
+- **Why worth talking to:** She's a participant in group plans and visibly feels the pain — shows real frustration and anxiety around it. That emotional signal is exactly the kind of evidence the need clause rests on.
+- **Clauses their input most affects:** Need or opportunity; Target customer; Key benefit; Primary differentiation (does she want an AI to handle it, or would that make the anxiety worse?).
 - **Earlyvangelist filter (which apply):**
-  - [ ] Has the problem
+  - [x] Has the problem
+  - [x] Knows they have the problem
+  - [ ] Has tried to solve the problem (she's a participant, not usually the organizer)
+  - [x] Is unhappy with their workaround (frustration + anxiety)
+
+### Dad (Interview 2 — contrast case)
+
+- **Who:** My dad. In person, this week.
+- **Why worth talking to:** He's a participant who doesn't do much of this and shows no frustration. Valuable as a boundary/contrast case — if the pain really isn't there for him, he helps map who this problem is NOT for, sharpening the target customer.
+- **Clauses their input most affects:** Target customer (where the boundary of the problem sits).
+- **Earlyvangelist filter (which apply):**
+  - [ ] Has the problem (unclear — possibly not)
   - [ ] Knows they have the problem
   - [ ] Has tried to solve the problem
   - [ ] Is unhappy with their workaround
+  - *Note: meets few/none — treat as a negative/contrast data point, not a source of conclusions.*
 
-### [Name 2]
+### Later interviews (to add)
 
-- **Who:**
-- **Why worth talking to:**
-- **Clauses their input most affects:**
-- **Earlyvangelist filter (which apply):**
-  - [ ] Has the problem
-  - [ ] Knows they have the problem
-  - [ ] Has tried to solve the problem
-  - [ ] Is unhappy with their workaround
+- A friend or two (slower to respond — reach out now, interview when they reply).
+- Ask each interviewee for a referral ("anyone else worth talking to?").
 
 ---
 
@@ -45,15 +51,21 @@ Question areas for the problem-discovery half of the interview. Ordered roughly 
 > - Don't pitch your idea in this phase.
 > - Let silence be okay.
 
-- **[Question area 1]**
-  - [example phrasing]
-  - [example phrasing]
-- **[Question area 2]**
-  - [example phrasing]
-  - [example phrasing]
-- **[Question area 3]**
-  - [example phrasing]
-  - [example phrasing]
+- **The last group plan**
+  - "Tell me about the last time you were trying to make a plan with a group — what was it?"
+  - "Walk me through what happened, start to finish."
+- **How the coordinating actually went**
+  - "How'd you all figure out the when and where? Who did what?"
+  - "Where did it get stuck?"
+- **When a plan falls through**
+  - "Tell me about a time a group plan just didn't end up happening. What happened there?"
+  - "When it fell apart, what'd you do instead?"
+- **What it cost / how it felt**
+  - "What was going through your head during all the back-and-forth?"
+  - "Did it bug you that it didn't happen — what did you feel like you missed?"
+- **Wishing it were handled (differentiation probe — no pitching)**
+  - "When it's dragging on, do you ever wish someone would just pick something?"
+  - "Or do you kind of like figuring it out together?"
 
 ---
 
@@ -61,16 +73,7 @@ Question areas for the problem-discovery half of the interview. Ordered roughly 
 
 Only entered after the user has confirmed the problem in their own words. If they have not, skip this phase — that interview was about confirming the problem.
 
-- **What to show, in what order:**
-  - [thing 1, why this thing first]
-  - [thing 2]
-- **What to listen for:**
-  - [confusion, hesitation, "huh", "where do I…" — these matter more than "this is cool"]
-  - [moments where the user starts using the thing differently than intended]
-- **Prompts:**
-  - "Show me how you'd actually use this."
-  - "Walk me through what you'd do next here."
-  - "Tell me what you think this button does."
+> **Skipped for these first interviews.** There is no prototype/wireframe yet (that comes in Stage 3), and these two conversations are about confirming the problem, not testing a solution. Revisit this phase in Stage 3 once wireframes exist. If Mom strongly confirms the problem in her own words and there's time, only *then* lightly float the offloading idea — but do not pitch.
 
 ---
 
@@ -86,30 +89,30 @@ Only entered after the user has confirmed the problem in their own words. If the
 
 **One set per planned interview. Written before the interview happens. Reviewed and updated after.**
 
-### Interview 1 — [interviewee, planned date]
+### Interview 1 — Mom (this week)
 
-#### [Clause being tested, e.g., Target customer]
+#### Need or opportunity
 
-- **Current belief:** [clause as currently written]
-- **Confirms it if:** [what the user could say or do that would confirm]
-- **Refutes it if:** [what they could say or do that would force a revision]
-- **Complicates it if:** [partial signal that doesn't fully refute]
-- **What actually happened:** [filled in after the interview, with quotes where possible]
+- **Current belief:** Friend groups want to make plans together but get stuck in the back-and-forth until the plan — sometimes the whole event — falls apart.
+- **Confirms it if:** She brings up a specific recent time a group plan got stuck or died in the coordination, unprompted, with real frustration.
+- **Refutes it if:** Her plans generally come together fine, or her frustration is really about something else (people flaking, money) rather than the scheduling itself.
+- **Complicates it if:** Plans get stuck but rarely fully die — they happen late or smaller instead.
+- **What actually happened:** [fill in after the interview, with quotes]
 
-#### [Another clause being tested]
+#### Primary differentiation
 
-- **Current belief:**
-- **Confirms it if:**
-- **Refutes it if:**
-- **Complicates it if:**
-- **What actually happened:**
+- **Current belief:** People want the coordination taken off them — an AI that proposes a plan that works.
+- **Confirms it if:** She wishes someone/something would "just handle it" or decide.
+- **Refutes it if:** She likes staying in control of the choosing, or would distrust a plan she didn't shape.
+- **Complicates it if:** She'd want help finding a time but still wants to pick the activity herself.
+- **What actually happened:** [fill in after the interview, with quotes]
 
-### Interview 2 — [interviewee, planned date]
+### Interview 2 — Dad (this week)
 
-#### [Clause being tested]
+#### Target customer
 
-- **Current belief:**
-- **Confirms it if:**
-- **Refutes it if:**
-- **Complicates it if:**
-- **What actually happened:**
+- **Current belief:** The target is friend groups with busy, clashing schedules who feel this pain.
+- **Confirms it if:** Even as a low-key participant, he recognizes the pain or names people who feel it.
+- **Refutes it if:** He never feels friction and doesn't see it around him — the problem is narrower than "friend groups" generally.
+- **Complicates it if:** He doesn't feel it himself but clearly points to someone (like Mom) who does — real problem, concentrated in a certain type of person.
+- **What actually happened:** [fill in after the interview, with quotes]
