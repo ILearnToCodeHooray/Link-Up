@@ -5,9 +5,9 @@ title: Project Status
 # Project Status
 
 **Current stage:** Stage 1 — Positioning & Research Planning (Pass 4)
-**Current pass or activity:** Pass 4 — User interviews and revision (`ua4-interview-plan.md`)
-**Last status update:** 2026-07-04
-**Most recent checkpoint:** Pass 3 interview plan complete — recruiting, question areas, and falsification commitments written; ready to conduct interviews
+**Current pass or activity:** Pass 4 — User interviews and revision (2 of ~3–5 done)
+**Last status update:** 2026-07-05
+**Most recent checkpoint:** Interviews 1 (Mom) & 2 (Dad) done and debriefed; Need & Target customer now evidenced by interview
 
 ## Stage overview
 
@@ -20,30 +20,25 @@ title: Project Status
 
 ## Per-clause status (positioning statement)
 
-- **Target customer:** refined by research
-- **Need or opportunity:** refined by research
-- **Product name:** refined by research (keeping "Link Up" for now; rename before launch — name already taken)
+- **Target customer:** evidenced by interview
+- **Need or opportunity:** evidenced by interview (revised: "abandoned" -> "derailed")
+- **Product name:** refined by research (keeping "Link Up" for now; rename before launch — name taken)
 - **Product category:** refined by research
-- **Key benefit:** drafted-unconfirmed (interview-only)
+- **Key benefit:** drafted-unconfirmed (interview-only — NOT yet tested)
 - **Primary competitive alternative:** refined by research
-- **Primary differentiation:** refined by research (niche open; desirability untested → interviews)
+- **Primary differentiation:** refined by research (niche open; DESIRABILITY still untested → needs interview)
 
 ## Completed checkpoints
 
-- 2026-06-15 — Project initialized; opportunity discovery started (`ua1-opportunity-notes.md`).
-- 2026-06-15 — Candidate opportunity confirmed. Stage 0 complete.
-- 2026-06-22 — Pass 1 — First draft of all seven positioning clauses complete (`ua2-positioning-statement.md`).
-- 2026-06-27 — Pass 2 — Research complete (`ua3-research-plan.md`). Six clauses refined by research; desirability of AI-decided plans routed to interviews.
-- 2026-07-04 — Pass 3 — Interview plan complete (`ua4-interview-plan.md`). Two interviews planned (Mom = strong; Dad = contrast case) with open-ended question areas and falsification commitments. Ready to conduct.
+- 2026-06-15 — Stage 0 opportunity discovery complete (`ua1-opportunity-notes.md`).
+- 2026-06-22 — Pass 1 — First draft of all seven positioning clauses (`ua2-positioning-statement.md`).
+- 2026-06-27 — Pass 2 — Research complete (`ua3-research-plan.md`). Six clauses refined by research.
+- 2026-07-04 — Pass 3 — Interview plan complete (`ua4-interview-plan.md`).
+- 2026-07-05 — Interview 1 (Mom) — evidenced Need (revised "abandoned" -> "derailed") and supported Target customer. Interview 2 (Dad, contrast) — confirmed the pain isn't universal; kept Target as whole friend groups. Differentiation desirability NOT tested; Key benefit NOT tested.
 
-## Notes
+## What's left to finish Stage 1
 
-Interviews planned this week:
-- **Mom (Interview 1, strong):** tests Need and Differentiation (does she want the coordination taken off her, or would an AI deciding make the anxiety worse?).
-- **Dad (Interview 2, contrast):** tests Target customer — maps where the problem does NOT apply.
-- Reach out to a friend or two now; interview when they respond. Ask every interviewee for a referral.
-
-Open questions still driving the interviews:
-- Do people feel the pain badly enough to switch from the group text?
-- Do they WANT an AI to propose/decide plans, or is the back-and-forth part of the value?
-- Is "the plan gets abandoned" the true failure mode?
+Stage 1 cannot exit until every clause is evidenced by interview or stable. Still open:
+- **Primary differentiation** — need an interview that directly probes whether people WANT an AI to propose/decide plans (or whether the back-and-forth is part of the value). Riskiest clause.
+- **Key benefit** — need to hear a user say, in their own words, that "the plans actually happening" is the thing they'd care about.
+- Best next step: 1–2 more interviews, ideally a friend (the target user), to test both. Ask interviewees for referrals.

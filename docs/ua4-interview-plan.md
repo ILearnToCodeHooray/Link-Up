@@ -97,7 +97,7 @@ Only entered after the user has confirmed the problem in their own words. If the
 - **Confirms it if:** She brings up a specific recent time a group plan got stuck or died in the coordination, unprompted, with real frustration.
 - **Refutes it if:** Her plans generally come together fine, or her frustration is really about something else (people flaking, money) rather than the scheduling itself.
 - **Complicates it if:** Plans get stuck but rarely fully die — they happen late or smaller instead.
-- **What actually happened:** [fill in after the interview, with quotes]
+- **What actually happened:** 2026-07-04 interview. Mom described last week's dinner with friends — an elaborate back-and-forth, people's plans changing last-minute; she ended up dropping out because her own plans changed, and the group rescheduled to a different day. She also recalled the Yosemite family reunion: the plan wasn't fully known, the group got split up with no cell service, and it took a while to regroup (in-the-moment coordination, not scheduling). **VERDICT: CONFIRMED** the coordination back-and-forth is real and painful, but **COMPLICATED** the failure mode — the dinner was *derailed/rescheduled* and one person dropped, not *abandoned*. Clause revised: "abandoned" softened to "derailed," with full abandonment as the severe end.
 
 #### Primary differentiation
 
@@ -105,7 +105,7 @@ Only entered after the user has confirmed the problem in their own words. If the
 - **Confirms it if:** She wishes someone/something would "just handle it" or decide.
 - **Refutes it if:** She likes staying in control of the choosing, or would distrust a plan she didn't shape.
 - **Complicates it if:** She'd want help finding a time but still wants to pick the activity herself.
-- **What actually happened:** [fill in after the interview, with quotes]
+- **What actually happened:** Not tested. The conversation surfaced the mental load ("trying to coordinate and figure things out") but produced no evidence about whether Mom would *want* an AI to propose or decide plans, or whether that would ease or worsen her anxiety. **VERDICT: STILL OPEN** — the riskiest clause; must be probed directly in a future interview (ideally a friend).
 
 ### Interview 2 — Dad (this week)
 
@@ -115,4 +115,4 @@ Only entered after the user has confirmed the problem in their own words. If the
 - **Confirms it if:** Even as a low-key participant, he recognizes the pain or names people who feel it.
 - **Refutes it if:** He never feels friction and doesn't see it around him — the problem is narrower than "friend groups" generally.
 - **Complicates it if:** He doesn't feel it himself but clearly points to someone (like Mom) who does — real problem, concentrated in a certain type of person.
-- **What actually happened:** [fill in after the interview, with quotes]
+- **What actually happened:** 2026-07-04 interview. Dad had **no example** of a group plan that didn't happen — consistent with him not doing much group social planning. **VERDICT:** does not refute the target; confirms the pain isn't universal — it's felt by people *actively* making group plans, which Dad largely isn't. Student's judgment: keep the target as whole friend groups (not narrowed to a "coordinator" type), because Link Up is inherently a whole-group tool — everyone shares their schedule and the group works together; Mom felt the pain as a participant, not an organizer.

@@ -9,7 +9,7 @@ The statement at the top is the public-facing artifact — short, clean, one par
 ## Statement
 
 > For *friend groups with busy, clashing schedules*
-> who *want to make plans together but get stuck in the back-and-forth until the plan falls apart*,
+> who *want to make plans together but keep getting derailed in the back-and-forth — plans get rescheduled, downsized, or dropped, and sometimes fall through entirely*,
 > *Link Up* is a *group scheduling app*
 > that *turns "we should hang out" into plans that actually happen*.
 > Unlike *coordinating by hand in a group text*,
@@ -21,8 +21,8 @@ The statement at the top is the public-facing artifact — short, clean, one par
 
 Per-clause status. Mirrors the per-clause status in `UA0-PROJECT-STATUS.md`.
 
-- **Target customer:** refined by research
-- **Need or opportunity:** refined by research
+- **Target customer:** evidenced by interview
+- **Need or opportunity:** evidenced by interview
 - **Product name:** refined by research
 - **Product category:** refined by research
 - **Key benefit:** drafted-unconfirmed
@@ -44,17 +44,19 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - 2026-06-21: clause drafted from belief; not yet confirmed with anyone other than myself.
   - 2026-06-27 (research): a whole product category targets this audience (Howbout, Flaky, Partiful, etc.), reachable via app stores — the audience is real and reachable. The specific human and pain intensity still come from interviews.
+  - 2026-07-04 (interviews): Mom (a participant, not organizer) clearly feels the pain; Dad has no examples and does little group social planning. So the pain is NOT universal — it's felt by whole friend groups actively trying to make plans. Kept the target as whole friend groups rather than narrowing to a "coordinator" type, because Link Up depends on the whole group sharing schedules and working together; Mom felt the pain as a participant.
 - **Alternatives considered:** "Anyone who has trouble scheduling with large groups" — dropped because it defines the customer by the need rather than by who they are, and lumps together very different people (office managers, coaches, wedding planners) who want different things and are reached differently. Picked friend groups making social plans as the beachhead because that is the friction I understand from the inside.
 - **What would change my mind:** If I interview several people and group social planning turns out not to be a real pain for them — annoying, but not annoying enough to want a tool for it.
 
 ### Need or opportunity
 
-- **Current belief:** They want to turn a loose "we should hang out" into an actual plan, but so often get stuck in the back-and-forth that the plan — sometimes the whole event — gets abandoned.
+- **Current belief:** They want to turn a loose "we should hang out" into an actual plan, but keep getting derailed in the back-and-forth — plans get rescheduled, downsized, or dropped, and sometimes fall through entirely.
 - **Basis for the belief:** My own experience — most painfully, skipping the last couple of birthdays entirely because coordinating the group felt too hard to even attempt. The failure mode is abandonment, not just friction.
 - **Evidence found:**
   - 2026-06-21: clause drafted from belief; not yet confirmed with anyone other than myself.
   - 2026-06-27 (research): multiple apps market against "group chats that never turn into plans" (Howbout, the existing Link Up) — the need is real and widely recognized. Intensity (does it kill plans?) still best tested in interviews.
-- **Alternatives considered:** Framing the need as "planning is exhausting/annoying" — set aside in favor of the stronger framing that plans actually fail to happen. Annoyance is tolerated; abandonment is the real cost.
+  - 2026-07-04 (interview, Mom): CONFIRMED the coordination back-and-forth is real and painful — last week's dinner had an elaborate back-and-forth with last-minute changes; she dropped out and the group rescheduled to another day. But this COMPLICATED the failure mode: the plan was *derailed / rescheduled* and one person fell off, not *abandoned*. Revised the clause from "abandoned" to "derailed," keeping full abandonment (e.g. the skipped birthdays) as the severe end of the spectrum.
+- **Alternatives considered:** Framing the need as "planning is exhausting/annoying" — set aside earlier in favor of "plans fail to happen." After Mom's interview, softened the strong "the whole event gets abandoned" wording to "derailed / rescheduled / dropped," since outright abandonment is the extreme case, not the typical one.
 - **What would change my mind:** If I interview people and find that when group plans fall through they don't actually care much — they shrug it off and it wasn't important to them anyway.
 
 ### Product name
@@ -103,5 +105,6 @@ One subsection per clause. Updated continuously across all five passes.
 - **Evidence found:**
   - 2026-06-21: clause drafted from belief; not yet confirmed with users.
   - 2026-06-27 (research): no mainstream tool clearly does "AI proposes a group SOCIAL plan from everyone's availability + activity preferences." AI calendar assistants exist (Clockwise, Dola, SkedPal, Morgen) but are personal/work-calendar focused; group tools (Doodle, WhenAvailable) are still manual polls. So the specific niche is open. BUT research can only show the niche is open, not that people WANT an AI deciding their plans — that desirability is still untested and must be confirmed in interviews.
+  - 2026-07-04 (interview, Mom): NOT tested. The conversation showed the mental load is real ("trying to coordinate and figure things out") but produced no evidence on whether users WANT an AI to propose/decide a plan, or whether that would ease or worsen the anxiety. Still the riskiest clause — needs a dedicated probe in a future interview.
 - **Alternatives considered:** Stating it as raw AI capability ("works faster, remembers more, finds solutions a human can't") — kept the substance but reframed around the outcome for the group, since a capability the customer wouldn't notice isn't differentiation.
 - **What would change my mind:** If people don't want an AI deciding their plans — either they don't trust it, or the back-and-forth ("where should we go?") is part of the fun and they want to stay in control of the haggling — then automating it away could backfire rather than differentiate.
