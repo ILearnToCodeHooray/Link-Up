@@ -33,10 +33,12 @@ One subsection per planned interviewee.
   - [ ] Is unhappy with their workaround
   - *Note: meets few/none — treat as a negative/contrast data point, not a source of conclusions.*
 
-### Later interviews (to add)
+### Mom (Interview 3 — revisit, sharper focus)
 
-- A friend or two (slower to respond — reach out now, interview when they reply).
-- Ask each interviewee for a referral ("anyone else worth talking to?").
+- **Who:** My mom, second conversation.
+- **Why worth talking to:** Friends aren't responding/available, and she's already the one person confirmed to feel the need firsthand — best positioned to react honestly to the two clauses that are still open. This is a return visit, not a fresh recruit, so no earlyvangelist re-check needed.
+- **Clauses their input most affects:** Primary differentiation (does she want the choice taken off her hands); Key benefit (does the plan happening matter more than the process of deciding).
+- **Note:** A second interview with the same person is weaker evidence than a fresh target-user interview — treat her answers here as a data point to sharpen the clauses, not final confirmation. Still worth a friend/target-user check later if one becomes available.
 
 ---
 
@@ -66,6 +68,12 @@ Question areas for the problem-discovery half of the interview. Ordered roughly 
 - **Wishing it were handled (differentiation probe — no pitching)**
   - "When it's dragging on, do you ever wish someone would just pick something?"
   - "Or do you kind of like figuring it out together?"
+- **Interview 3 only — what mattered when the dinner finally happened (key benefit probe)**
+  - "Thinking back on that dinner ending up rescheduled — what would it have meant if it had just happened as first planned?"
+  - "What actually bugged you more: not knowing what was decided, or that you didn't get to see everyone?"
+- **Interview 3 only — reaction to someone else deciding (differentiation probe, still no pitching)**
+  - "If one person in the group had just picked the place and time without checking with everyone first, how would that have landed with you?"
+  - "Would you have gone along with it, or wanted to weigh in first?"
 
 ---
 
@@ -73,7 +81,12 @@ Question areas for the problem-discovery half of the interview. Ordered roughly 
 
 Only entered after the user has confirmed the problem in their own words. If they have not, skip this phase — that interview was about confirming the problem.
 
-> **Skipped for these first interviews.** There is no prototype/wireframe yet (that comes in Stage 3), and these two conversations are about confirming the problem, not testing a solution. Revisit this phase in Stage 3 once wireframes exist. If Mom strongly confirms the problem in her own words and there's time, only *then* lightly float the offloading idea — but do not pitch.
+> **Skipped for Interviews 1 & 2.** There was no prototype/wireframe yet (that comes in Stage 3), and those two conversations were about confirming the problem, not testing a solution.
+>
+> **Interview 3 (Mom, revisit) — light solution feedback, since she already confirmed the problem in Interview 1:**
+> - Describe the mechanism plainly, without selling it: "Say something looked at everyone's calendars and what people tend to like, and just told the group 'here's the plan: Friday 7pm, this place' — no back-and-forth needed."
+> - Then watch/listen, don't ask "would you use this": "What's your first reaction to that?" / "Would you want to double-check it, or just go with it?"
+> - Still not a pitch — one plain description, then listen. Do not sell features or defend the idea if she pushes back.
 
 ---
 
@@ -116,3 +129,21 @@ Only entered after the user has confirmed the problem in their own words. If the
 - **Refutes it if:** He never feels friction and doesn't see it around him — the problem is narrower than "friend groups" generally.
 - **Complicates it if:** He doesn't feel it himself but clearly points to someone (like Mom) who does — real problem, concentrated in a certain type of person.
 - **What actually happened:** 2026-07-04 interview. Dad had **no example** of a group plan that didn't happen — consistent with him not doing much group social planning. **VERDICT:** does not refute the target; confirms the pain isn't universal — it's felt by people *actively* making group plans, which Dad largely isn't. Student's judgment: keep the target as whole friend groups (not narrowed to a "coordinator" type), because Link Up is inherently a whole-group tool — everyone shares their schedule and the group works together; Mom felt the pain as a participant, not an organizer.
+
+### Interview 3 — Mom, revisit (sharper focus)
+
+#### Primary differentiation
+
+- **Current belief:** Unlike a group text where people do all the coordination by hand, Link Up's AI assistant holds everyone's availability and preferences and proposes a plan that works — taking the back-and-forth off the group entirely.
+- **Confirms it if:** She reacts with relief or enthusiasm to the plain description ("here's the plan, no back-and-forth needed") — wants to just go with it rather than double-check it.
+- **Refutes it if:** She says she'd feel uneasy or distrustful going along with a plan she didn't have a hand in shaping, or that picking things together is part of what she likes about it.
+- **Complicates it if:** She wants the AI to narrow it down to a couple of options but still wants final say herself — help, not full delegation.
+- **What actually happened:** *(fill in after the interview)*
+
+#### Key benefit
+
+- **Current belief:** The benefit is the get-togethers you actually want to happen, happening — not the mechanism by which they were decided.
+- **Confirms it if:** Unprompted, she says what mattered about the derailed dinner was that it didn't happen as planned / she didn't get the time with everyone — not how the decision-making went.
+- **Refutes it if:** She says what actually bothered her was the effort/anxiety of the back-and-forth itself, regardless of whether the dinner ultimately happened — a process benefit, not an outcome benefit.
+- **Complicates it if:** Both matter to her about equally — the outcome and the relief from coordinating.
+- **What actually happened:** *(fill in after the interview)*
