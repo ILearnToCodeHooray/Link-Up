@@ -11,7 +11,7 @@ The statement at the top is the public-facing artifact — short, clean, one par
 > For *friend groups with busy, clashing schedules*
 > who *want to make plans together but keep getting derailed in the back-and-forth — plans get rescheduled, downsized, or dropped, and sometimes fall through entirely*,
 > *Link Up* is a *group scheduling app*
-> that *turns "we should hang out" into plans that actually happen*.
+> that *turns "we should hang out" into plans that actually happen, without the back-and-forth*.
 > Unlike *coordinating by hand in a group text*,
 > our product *uses an AI assistant to juggle everyone's availability and preferences and propose a plan that works*.
 
@@ -25,9 +25,9 @@ Per-clause status. Mirrors the per-clause status in `UA0-PROJECT-STATUS.md`.
 - **Need or opportunity:** evidenced by interview
 - **Product name:** refined by research
 - **Product category:** refined by research
-- **Key benefit:** drafted-unconfirmed
+- **Key benefit:** evidenced by interview
 - **Primary competitive alternative:** refined by research
-- **Primary differentiation:** refined by research
+- **Primary differentiation:** evidenced by interview
 
 Status values: `not started` | `drafted from belief` | `drafted-unconfirmed` | `refined by research` | `evidenced by interview` | `stable`.
 
@@ -81,12 +81,13 @@ One subsection per clause. Updated continuously across all five passes.
 
 ### Key benefit
 
-- **Current belief:** It gets the get-togethers you actually want to happen to happen — so you spend time with your friends instead of losing the plan to coordination.
-- **Basis for the belief:** Follows directly from the need: the cost of the problem is plans/events not happening, so the benefit is those plans actually happening. The benefit survives the "magic wand" test — if the coordination were handled by magic, the thing the group cares about is that they got to do the activity together, not that times were suggested.
+- **Current belief:** It turns "we should hang out" into plans that actually happen, *without the back-and-forth* — the benefit is both the get-together happening and being spared the coordination hassle to get there.
+- **Basis for the belief:** Follows directly from the need: the cost of the problem is plans/events not happening, so the benefit is those plans actually happening. Revised after interview 3 to also name the hassle itself as part of the benefit, not just the outcome.
 - **Evidence found:**
   - 2026-06-21: clause drafted from belief; not yet confirmed with users.
-- **Alternatives considered:** Feature-level framings like "automatically suggests times that work for everyone" — set aside because that describes the mechanism, not the outcome the customer cares about.
-- **What would change my mind:** If coordination turns out not to be the real blocker — i.e., even when scheduling is solved, plans still don't happen for other reasons (money, nobody truly wanted to go) — then fixing coordination wouldn't deliver this benefit.
+  - 2026-07-05 (interview 3, Mom revisit): Asked what mattered more about the rescheduled dinner — that it happened, or the hassle of getting there. She said the hassle was actually the *more* annoying part, but the get-together still happening was also important to her. On reflection with the student: the dinner *did* end up happening (rescheduled), which should have fully satisfied a pure "outcome" benefit — but the hassle still bothered her. **VERDICT: COMPLICATED, then resolved** — the benefit isn't outcome-only; relief from the coordination itself is part of what the customer wants, alongside the plan happening. Clause revised to name both.
+- **Alternatives considered:** Feature-level framings like "automatically suggests times that work for everyone" — set aside because that describes the mechanism, not the outcome the customer cares about. Pure outcome-only framing ("plans that actually happen") — set aside after interview 3 showed the hassle itself is part of the benefit, not just a side effect of solving it.
+- **What would change my mind:** If a future interview shows people don't care about the hassle at all once the outcome is secured, the "without the back-and-forth" half could be dropped back to a supporting detail rather than part of the core benefit.
 
 ### Primary competitive alternative
 
@@ -106,5 +107,6 @@ One subsection per clause. Updated continuously across all five passes.
   - 2026-06-21: clause drafted from belief; not yet confirmed with users.
   - 2026-06-27 (research): no mainstream tool clearly does "AI proposes a group SOCIAL plan from everyone's availability + activity preferences." AI calendar assistants exist (Clockwise, Dola, SkedPal, Morgen) but are personal/work-calendar focused; group tools (Doodle, WhenAvailable) are still manual polls. So the specific niche is open. BUT research can only show the niche is open, not that people WANT an AI deciding their plans — that desirability is still untested and must be confirmed in interviews.
   - 2026-07-04 (interview, Mom): NOT tested. The conversation showed the mental load is real ("trying to coordinate and figure things out") but produced no evidence on whether users WANT an AI to propose/decide a plan, or whether that would ease or worsen the anxiety. Still the riskiest clause — needs a dedicated probe in a future interview.
+  - 2026-07-05 (interview 3, Mom revisit): Described the mechanism plainly ("something looks at everyone's calendars and preferences and just tells the group here's the plan, no back-and-forth") and asked for her first reaction. She was "definitely ok" with the AI doing everything — no hesitation about not having a hand in shaping it, went along with it easily. **VERDICT: CONFIRMED.** People (or at least this earlyvangelist) do want the choice taken off their hands, not just help narrowing it down.
 - **Alternatives considered:** Stating it as raw AI capability ("works faster, remembers more, finds solutions a human can't") — kept the substance but reframed around the outcome for the group, since a capability the customer wouldn't notice isn't differentiation.
 - **What would change my mind:** If people don't want an AI deciding their plans — either they don't trust it, or the back-and-forth ("where should we go?") is part of the fun and they want to stay in control of the haggling — then automating it away could backfire rather than differentiate.

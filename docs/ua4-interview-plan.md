@@ -138,7 +138,7 @@ Only entered after the user has confirmed the problem in their own words. If the
 - **Confirms it if:** She reacts with relief or enthusiasm to the plain description ("here's the plan, no back-and-forth needed") — wants to just go with it rather than double-check it.
 - **Refutes it if:** She says she'd feel uneasy or distrustful going along with a plan she didn't have a hand in shaping, or that picking things together is part of what she likes about it.
 - **Complicates it if:** She wants the AI to narrow it down to a couple of options but still wants final say herself — help, not full delegation.
-- **What actually happened:** *(fill in after the interview)*
+- **What actually happened:** Mom was "definitely ok" with the AI doing everything — went along easily with the plain description, no hesitation about not having a hand in shaping it. **VERDICT: CONFIRMED.**
 
 #### Key benefit
 
@@ -146,4 +146,4 @@ Only entered after the user has confirmed the problem in their own words. If the
 - **Confirms it if:** Unprompted, she says what mattered about the derailed dinner was that it didn't happen as planned / she didn't get the time with everyone — not how the decision-making went.
 - **Refutes it if:** She says what actually bothered her was the effort/anxiety of the back-and-forth itself, regardless of whether the dinner ultimately happened — a process benefit, not an outcome benefit.
 - **Complicates it if:** Both matter to her about equally — the outcome and the relief from coordinating.
-- **What actually happened:** *(fill in after the interview)*
+- **What actually happened:** She said the hassle/back-and-forth was actually the *more* annoying part, but that the get-together still happening was also important to her. **VERDICT: COMPLICATED** — this isn't a pure outcome-only benefit like the clause currently states; relief from the coordination hassle carries real weight too, not just "the plan happening."
