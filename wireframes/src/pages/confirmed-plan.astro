@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Confirmed Plan">
+  <p class="subtitle">Sam's Birthday &mdash; locked in.</p>
+
+  <wired-card>
+    <strong>Sat, 6:00pm &middot; Rooftop spot</strong>
+  </wired-card>
+
+  <div class="section-label">Who's in</div>
+  <wired-card>
+    <ul class="plain">
+      <li>You</li>
+      <li>Mom</li>
+      <li>Jess</li>
+      <li>Priya</li>
+    </ul>
+  </wired-card>
+
+  <a href="/proposed-plan" class="nav-btn"><wired-button>Leave the plan</wired-button></a>
+
+  <div class="note-block">
+    <strong>Leave the plan:</strong> sends the rest of the group back to Proposed Plan, with the AI re-evaluating whether the plan still holds without this person.
+  </div>
+</Layout>

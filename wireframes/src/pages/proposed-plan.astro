@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Proposed Plan">
+  <p class="subtitle">Friday Dinner</p>
+
+  <wired-card>
+    <strong>Fri, 7:00pm &middot; The usual Thai place</strong>
+    <div style="font-size:0.8rem; color:#555; margin-top:6px;">
+      Why: everyone's free after 6:30, and it's a spot Mom and Jess both picked as a favorite.
+    </div>
+  </wired-card>
+
+  <div class="section-label">Who's in</div>
+  <wired-card>
+    <ul class="plain">
+      <li>You <span class="status-pill">accepted</span></li>
+      <li>Mom <span class="status-pill">accepted</span></li>
+      <li>Dad <span class="status-pill">no response yet</span></li>
+      <li>Jess <span class="status-pill">flagged a conflict</span></li>
+    </ul>
+  </wired-card>
+
+  <a href="/confirmed-plan" class="nav-btn"><wired-button elevation="2">Accept</wired-button></a>
+  <a href="/flag-a-conflict" class="nav-btn"><wired-button>Flag a conflict</wired-button></a>
+
+  <div class="note-block">
+    <strong>Error state:</strong> if the AI can't find a time/place that works for enough of the group, this card is replaced with: "Couldn't find a plan that works for everyone yet" and a button to mark specific people as optional rather than required, instead of silently failing.
+  </div>
+</Layout>

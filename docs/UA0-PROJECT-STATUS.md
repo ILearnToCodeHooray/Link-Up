@@ -4,10 +4,10 @@ title: Project Status
 
 # Project Status
 
-**Current stage:** Stage 3 — Specification & Wireframes
-**Current pass or activity:** Specification document complete (`ua6-specification.md`); wireframes not started
-**Last status update:** 2026-07-05
-**Most recent checkpoint:** Screen inventory (11 screens) and all five-part descriptions written; Requirements/Constraints/Open Questions filled in
+**Current stage:** Stage 3 — Specification & Wireframes (complete, ready to advance)
+**Current pass or activity:** Wireframes built (11 screens) and both Stage 2 scenarios walked through and passing
+**Last status update:** 2026-07-12
+**Most recent checkpoint:** Wireframe scenario walkthrough surfaced and fixed a real gap (Flag a Conflict routing exposed full group data to no-account Quick Response users) — fixed in both the wireframe and the spec
 
 ## Stage overview
 
@@ -16,7 +16,7 @@ title: Project Status
 | Stage 0 | Opportunity discovery | Complete |
 | Stage 1 | Positioning & research planning | Complete |
 | Stage 2 | Discovery research (landscape, stakeholders, JTBD) | Complete |
-| Stage 3 | Specification & wireframes | In progress |
+| Stage 3 | Specification & wireframes | Complete |
 
 ## Per-clause status (positioning statement)
 
@@ -45,6 +45,12 @@ title: Project Status
 - COPPA compliance work needed before under-13 users are supported — the parental consent flow is named in the spec's Account Creation screen but not yet designed. Open question.
 - The existing "Link Up" app (name collision) hasn't been feature-audited — noted as an unresolved constraint in the spec.
 
-## Next: wireframes
+## Stage 3 exit check
 
-`ua6-specification.md` is done enough (11 screens, all five-part descriptions, requirements/constraints/open questions filled in). Stage 3 isn't complete until wireframes exist and scenario walkthroughs are done — handing to the `wireframes` skill next.
+- `ua6-specification.md`: screen inventory (11 screens), five-part description for every screen, Requirements/Constraints/Open Questions filled in. ✓
+- Wireframe project exists under `wireframes/` (Astro + wired-elements), one page per screen, fully navigable. ✓
+- Both Stage 2 scenarios walked through and passing. ✓ (one real gap found and fixed along the way — see Scenario walkthroughs in `ua6-specification.md`)
+
+Stage 3 exit criteria appear to be met; handing back to the orchestrator to confirm and close out the project.
+
+- 2026-07-12 — **Stage 3 complete.** Wireframes built for all 11 screens; both scenarios pass.

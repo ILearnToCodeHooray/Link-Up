@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Start a Plan">
+  <p class="subtitle">Name it, pick who's in, let the AI take it from there.</p>
+
+  <wired-card>
+    <wired-input placeholder="What are you planning? (e.g. Friday Dinner)"></wired-input>
+
+    <div class="section-label">Who's invited?</div>
+    <wired-checkbox checked>The Usual Crew (5)</wired-checkbox>
+    <wired-checkbox>Work Friends (4)</wired-checkbox>
+    <p style="font-size:0.85rem; margin: 6px 0;">
+      Don't see the right group? <a href="/friend-groups" class="plain-link">Create a new group</a>
+    </p>
+
+    <a href="/proposed-plan" class="nav-btn"><wired-button elevation="2">Submit</wired-button></a>
+  </wired-card>
+</Layout>

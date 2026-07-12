@@ -1,0 +1,80 @@
+---
+const { title, hideNav } = Astro.props;
+---
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} — Link Up (wireframe)</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/wired-elements@3/lib/wired-elements-bundled.js"></script>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      background: #fdfcf3;
+      color: #111;
+      font-family: 'Comic Sans MS', 'Segoe Print', cursive, sans-serif;
+      max-width: 440px;
+      margin: 0 auto;
+      padding: 20px 16px 60px;
+    }
+    .crumb {
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 4px;
+    }
+    h1 { font-size: 1.4rem; margin: 0 0 4px; }
+    .subtitle { color: #555; font-size: 0.85rem; margin-bottom: 18px; }
+    .section-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #888;
+      margin: 18px 0 8px;
+    }
+    wired-card { display: block; padding: 12px; margin-bottom: 10px; box-sizing: border-box; width: 100%; }
+    wired-button { margin: 4px 8px 4px 0; }
+    wired-input, wired-textarea, wired-combo, wired-listbox { display: block; margin-bottom: 10px; width: 100%; box-sizing: border-box; }
+    wired-checkbox, wired-radio { display: block; margin-bottom: 6px; }
+    a.nav-btn { text-decoration: none; color: inherit; display: inline-block; }
+    a.plain-link { color: #333; }
+    .status-pill {
+      display: inline-block;
+      font-size: 0.7rem;
+      border: 1.5px solid #333;
+      border-radius: 10px;
+      padding: 1px 8px;
+      margin-left: 6px;
+    }
+    .note-block {
+      border: 1.5px dashed #999;
+      padding: 10px 12px;
+      font-size: 0.8rem;
+      color: #555;
+      margin: 14px 0;
+    }
+    .footer-nav {
+      margin-top: 30px;
+      padding-top: 14px;
+      border-top: 1.5px dashed #ccc;
+      font-size: 0.75rem;
+      color: #888;
+    }
+    .footer-nav a { color: #888; margin-right: 10px; }
+    ul.plain { padding-left: 18px; }
+  </style>
+</head>
+<body>
+  <div class="crumb">Link Up — wireframe</div>
+  <h1>{title}</h1>
+  <slot />
+  {!hideNav && (
+    <div class="footer-nav">
+      <a href="/" class="plain-link">Home</a>
+      <a href="/login" class="plain-link">Login</a>
+      <a href="/settings" class="plain-link">Settings</a>
+    </div>
+  )}
+</body>
+</html>

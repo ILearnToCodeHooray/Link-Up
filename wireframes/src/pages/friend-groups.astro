@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Friend Groups">
+  <p class="subtitle">Who you plan with.</p>
+
+  <wired-card>
+    <strong>The Usual Crew</strong>
+    <ul class="plain">
+      <li>Mom</li>
+      <li>Dad</li>
+      <li>Jess</li>
+      <li>Priya</li>
+      <li>You</li>
+    </ul>
+    <wired-input placeholder="Add a friend (contact, phone, or link)"></wired-input>
+    <wired-button>Add friend</wired-button>
+    <wired-button>Remove a friend</wired-button>
+  </wired-card>
+
+  <wired-card>
+    <strong>Work Friends</strong>
+    <ul class="plain">
+      <li>Devon</li>
+      <li>Ari</li>
+      <li>You</li>
+    </ul>
+  </wired-card>
+
+  <wired-button elevation="2">+ Create a new group</wired-button>
+
+  <div class="note-block">
+    <strong>Adding a friend not yet on Link Up:</strong> sends them a Quick Response-style invite link for whichever plan they're first added to, rather than requiring them to make an account up front.
+  </div>
+</Layout>

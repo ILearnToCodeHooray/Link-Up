@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Quick Response" hideNav={true}>
+  <p class="subtitle">Priya sent you a plan &mdash; no account needed to respond.</p>
+
+  <wired-card>
+    <strong>Sam's Birthday</strong>
+    <div style="font-size:0.9rem; margin-top:6px;">Sat, 6:00pm &middot; Rooftop spot</div>
+    <div style="font-size:0.8rem; color:#555; margin-top:6px;">
+      Why: it's a spot Sam's mentioned before, and most of the group is free Saturday evening.
+    </div>
+  </wired-card>
+
+  <wired-button elevation="2">Accept</wired-button>
+  <a href="/flag-a-conflict?from=quick-response" class="nav-btn"><wired-button>Flag a conflict</wired-button></a>
+
+  <div class="note-block">
+    This page only ever shows the one plan you were invited to &mdash; never any other group data.
+  </div>
+
+  <p style="font-size:0.85rem; margin-top:16px;">
+    Want the full app? <a href="/account-creation" class="plain-link">Install Link Up</a>
+  </p>
+</Layout>

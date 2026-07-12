@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Login">
+  <p class="subtitle">Get back into your account.</p>
+
+  <wired-card>
+    <wired-input placeholder="Email"></wired-input>
+    <wired-input type="password" placeholder="Password"></wired-input>
+    <a href="/" class="nav-btn"><wired-button elevation="2">Log in</wired-button></a>
+  </wired-card>
+
+  <p style="font-size:0.85rem;">New here? <a href="/account-creation" class="plain-link">Create an account</a></p>
+</Layout>

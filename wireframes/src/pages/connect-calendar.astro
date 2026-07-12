@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Connect Calendar & Preferences">
+  <p class="subtitle">This is how the AI actually knows when you're free.</p>
+
+  <div class="section-label">Calendar</div>
+  <wired-card>
+    <wired-button>Connect Google Calendar</wired-button>
+    <wired-button>Connect Apple Calendar</wired-button>
+  </wired-card>
+
+  <div class="section-label">What do you like doing?</div>
+  <wired-card>
+    <wired-checkbox checked>Dinner / food</wired-checkbox>
+    <wired-checkbox>Outdoors</wired-checkbox>
+    <wired-checkbox checked>Low-key hangs</wired-checkbox>
+    <wired-checkbox>Active / sports</wired-checkbox>
+    <wired-checkbox>Trying new places</wired-checkbox>
+  </wired-card>
+
+  <a href="/" class="nav-btn"><wired-button elevation="2">Save & Continue</wired-button></a>
+  <a href="/" class="nav-btn"><wired-button>Skip for now</wired-button></a>
+
+  <div class="note-block">
+    <strong>Skip for now:</strong> takes you to Home, but you'll show up as an incomplete-data case the next time the AI proposes a plan involving you — same gap the Quick Response screen exists to patch for friends who never install the app at all.
+  </div>
+</Layout>

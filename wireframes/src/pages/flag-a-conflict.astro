@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+const fromQuickResponse = Astro.url.searchParams.get('from') === 'quick-response';
+const backHref = fromQuickResponse ? '/quick-response' : '/proposed-plan';
+---
+<Layout title="Flag a Conflict" hideNav={fromQuickResponse}>
+  <p class="subtitle">Let the group know Friday 7pm doesn't work.</p>
+
+  <wired-card>
+    <div style="margin-bottom:8px;"><strong>Flagging:</strong> Fri, 7:00pm &middot; The usual Thai place</div>
+    <wired-textarea placeholder="Optional note (e.g. 'works if it's after 8')"></wired-textarea>
+    <a href={backHref} class="nav-btn"><wired-button elevation="2">Confirm conflict</wired-button></a>
+    <a href={backHref} class="nav-btn"><wired-button>Cancel</wired-button></a>
+  </wired-card>
+
+  <div class="note-block">
+    <strong>Confirm conflict:</strong> returns to {fromQuickResponse ? 'Quick Response' : 'Proposed Plan'}, which now reflects the new constraint (re-proposed time/place for the group). <strong>Cancel:</strong> returns unchanged.
+    {fromQuickResponse && <><br /><br /><strong>Reached from Quick Response:</strong> stays account-free — no navigation to Home/Settings/full group data, consistent with "no-account participants only see the one plan they were invited to."</>}
+  </div>
+</Layout>

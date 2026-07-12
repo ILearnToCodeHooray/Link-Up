@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Settings">
+  <div class="section-label">Calendar</div>
+  <wired-card>
+    <span>Google Calendar &mdash; connected</span><br />
+    <a href="/connect-calendar" class="nav-btn"><wired-button>Manage</wired-button></a>
+  </wired-card>
+
+  <div class="section-label">Preferences</div>
+  <wired-card>
+    <span>Dinner / food, Low-key hangs</span><br />
+    <a href="/connect-calendar" class="nav-btn"><wired-button>Edit</wired-button></a>
+  </wired-card>
+
+  <div class="section-label">Notifications</div>
+  <wired-card>
+    <wired-checkbox checked>New plan proposals</wired-checkbox>
+    <wired-checkbox checked>Someone flagged a conflict</wired-checkbox>
+  </wired-card>
+
+  <div class="section-label">Parental consent (under-13 accounts only)</div>
+  <wired-card>
+    <span style="font-size:0.85rem; color:#555;">Not applicable to this account.</span>
+  </wired-card>
+
+  <div class="note-block">
+    The parental-consent flow itself isn't designed yet (open question in <code>ua6-specification.md</code>) &mdash; this card is a placeholder for where its status would show.
+  </div>
+</Layout>

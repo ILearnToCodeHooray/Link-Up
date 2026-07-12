@@ -132,14 +132,14 @@ Link Up is a mobile app for friend groups (roughly 3–10 people) who want to ac
 ### 7. Flag a Conflict
 
 - **Purpose:** Let someone who can't make the proposed plan say so quickly, so the AI can re-propose.
-- **Who lands here:** A group member who tapped "Flag a conflict" on Proposed Plan.
+- **Who lands here:** A group member who tapped "Flag a conflict" on Proposed Plan, **or** a non-installed friend who tapped "Flag a conflict" on Quick Response. (Surfaced during wireframe scenario walkthrough — this screen is shared by both entry points, and needs to know which one sent it.)
 - **What's shown:** The window they're flagging as unavailable, and an optional note.
 - **What they can do:**
   - Confirm the conflict
   - Cancel and go back
 - **Where each action goes:**
-  - Confirm the conflict → back to Proposed Plan, now showing an updated (re-proposed) time/place reflecting the new constraint
-  - Cancel → back to Proposed Plan, no change
+  - Confirm the conflict → back to wherever they came from (Proposed Plan for a logged-in member; Quick Response for a non-installed friend), reflecting the new constraint. **Not** to Proposed Plan in the Quick Response case — that would expose full group navigation and data to someone without an account, violating the no-account scoping requirement.
+  - Cancel → back to the same origin screen, no change
 
 ### 8. Quick Response (no-account link)
 
@@ -191,6 +191,15 @@ Link Up is a mobile app for friend groups (roughly 3–10 people) who want to ac
   - Manage connected calendars → Connect Calendar & Preferences
   - Edit activity preferences → confirmation state on this screen
   - Manage notifications → confirmation state on this screen
+
+---
+
+## Scenario walkthroughs
+
+Walked both Stage 2 scenarios through the wireframes in `../wireframes/`.
+
+- **Scenario 1.1 — Dinner plan under a schedule change:** Home → Start a Plan → Proposed Plan → (branch: Flag a Conflict) → Proposed Plan (updated) → Confirmed Plan. **Passes.** Delivers the key benefit — the plan still happens, and the group doesn't have to re-run the back-and-forth from scratch when a schedule changes.
+- **Scenario 2.1 — Almost not bothering with a birthday:** Home → Start a Plan → Friend Groups (adding people) → Proposed Plan → (branch: Quick Response for the non-installed friend → Flag a Conflict) → Proposed Plan (updated) → Confirmed Plan. **Passes**, after a fix: the walkthrough caught that Flag a Conflict, when reached from Quick Response, was routing back to Proposed Plan — which would have exposed full group navigation and data to someone without an account. Fixed in both the wireframe (`flag-a-conflict.astro` now tracks its origin and routes back to Quick Response instead) and this document (Flag a Conflict's description above, updated to name both entry points).
 
 ---
 

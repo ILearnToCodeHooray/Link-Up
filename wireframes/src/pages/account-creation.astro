@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Account Creation">
+  <p class="subtitle">Create your Link Up account.</p>
+
+  <wired-card>
+    <wired-input placeholder="Name"></wired-input>
+    <wired-input placeholder="Email"></wired-input>
+    <wired-input placeholder="Birth year"></wired-input>
+    <a href="/connect-calendar" class="nav-btn"><wired-button elevation="2">Submit (13+)</wired-button></a>
+  </wired-card>
+
+  <div class="note-block">
+    <strong>Under-13 branch (not yet designed):</strong> if birth year indicates the user is under 13, Submit should route into a parental-consent flow before any calendar/preference data is collected (COPPA — open question in <code>ua6-specification.md</code>). No screen exists for this yet.
+  </div>
+
+  <p style="font-size:0.85rem;"><a href="/login" class="plain-link">&larr; Back to Login</a></p>
+</Layout>

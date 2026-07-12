@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Home">
+  <p class="subtitle">Your plans, at a glance.</p>
+
+  <div class="section-label">Active plans</div>
+
+  <a href="/proposed-plan" class="nav-btn">
+    <wired-card>
+      <strong>Friday Dinner</strong>
+      <span class="status-pill">waiting on you</span>
+      <div style="font-size:0.8rem; color:#555; margin-top:4px;">Proposed: Fri 7:00pm &middot; The usual Thai place</div>
+    </wired-card>
+  </a>
+
+  <a href="/confirmed-plan" class="nav-btn">
+    <wired-card>
+      <strong>Sam's Birthday</strong>
+      <span class="status-pill">confirmed</span>
+      <div style="font-size:0.8rem; color:#555; margin-top:4px;">Sat 6:00pm &middot; Rooftop spot</div>
+    </wired-card>
+  </a>
+
+  <div class="section-label">Start something new</div>
+  <a href="/start-a-plan" class="nav-btn"><wired-button elevation="2">Start a new plan</wired-button></a>
+  <a href="/friend-groups" class="nav-btn"><wired-button>Friend Groups</wired-button></a>
+
+  <div class="note-block">
+    <strong>Empty state (first-time user):</strong> if there are no active or past plans yet, this list is replaced with: "You don't have any plans yet — start one to see it here." plus the same "Start a new plan" button.
+  </div>
+</Layout>
