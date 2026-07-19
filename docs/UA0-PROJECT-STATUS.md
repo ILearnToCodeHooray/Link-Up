@@ -4,10 +4,10 @@ title: Project Status
 
 # Project Status
 
-**Current stage:** Done — all four stages of the UA Framework complete
-**Current pass or activity:** n/a — project moves from planning artifacts to actual build/implementation next
-**Last status update:** 2026-07-12
-**Most recent checkpoint:** Wireframes built for all 11 screens; both Stage 2 scenarios walked through and passing (one real gap found and fixed along the way)
+**Current stage:** Done (planning) — build in progress
+**Current pass or activity:** n/a — planning stages complete; now building the app itself under `app/`
+**Last status update:** 2026-07-19
+**Most recent checkpoint:** v1 prototype built — a dependency-free static PWA implementing all 11 spec screens, with calendar/AI mocked so the full flow works end-to-end. Both Stage 2 scenarios verified against the underlying data/AI logic.
 
 ## Stage overview
 
@@ -53,4 +53,4 @@ title: Project Status
 
 Stage 3 exit criteria appear to be met; handing back to the orchestrator to confirm and close out the project.
 
-- 2026-07-12 — **Stage 3 complete.** Wireframes built for all 11 screens; both scenarios pass.
+- 2026-07-12 — **Stage 3 complete.*
