@@ -4,10 +4,10 @@ title: Project Status
 
 # Project Status
 
-**Current stage:** Done — all four stages of the UA Framework complete
-**Current pass or activity:** n/a — project moves from planning artifacts to actual build/implementation next
-**Last status update:** 2026-07-12
-**Most recent checkpoint:** Wireframes built for all 11 screens; both Stage 2 scenarios walked through and passing (one real gap found and fixed along the way)
+**Current stage:** Done (planning) — build in progress
+**Current pass or activity:** n/a — planning stages complete; now building the app itself under `app/`
+**Last status update:** 2026-07-19
+**Most recent checkpoint:** v1 prototype built — a dependency-free static PWA implementing all 11 spec screens, with calendar/AI mocked so the full flow works end-to-end. Both Stage 2 scenarios verified against the underlying data/AI logic.
 
 ## Stage overview
 
@@ -54,3 +54,4 @@ title: Project Status
 Stage 3 exit criteria appear to be met; handing back to the orchestrator to confirm and close out the project.
 
 - 2026-07-12 — **Stage 3 complete.** Wireframes built for all 11 screens; both scenarios pass.
+- 2026-07-19 — **Build started.** `app/` holds a working v1 prototype (static HTML/CSS/JS PWA, no backend) implementing all 11 spec screens. Calendar connection and the AI proposal engine are mocked — see `app/README.md` for the swap points. Under-13 signup lands on an explicit "parental consent needed" placeholder rather than proceeding silently. The Quick Response → Flag a Conflict routing fix from the Stage 3 walkthrough is implemented the same way here. Scenario 1.1 and 2.1 logic (propose → flag conflict → re-propose → confirm; ghost-user invite tokens) verified with an automated smoke test against `store.js`/`ai.js`.
