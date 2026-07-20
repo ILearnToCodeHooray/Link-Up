@@ -1,7 +1,7 @@
 ---
 title: User Research Project
 layout: home
-last_updated: 2026-07-19
+last_updated: 2026-06-15
 ---
 
 # User Research Project
@@ -10,17 +10,15 @@ This site is the published record of an in-progress user-research project
 following the [ua-framework][ua] three-stage process — opportunity
 discovery, discovery (positioning), analysis, and specification. The
 documents below are produced as the project moves through those stages.
-Planning is now complete; the project has moved into building the app
-itself (see "Build" below).
 
 [ua]: https://github.com/league-infrastructure/claude-plugin-marketplace/tree/master/plugins/ua-framework
 
 ## Project status
 
-- **Current stage:** Done (planning) — build in progress
-- **Current pass / activity:** Building the v1 prototype under `app/`
-- **Last status update:** 2026-07-19
-- **Most recent checkpoint:** v1 prototype built — a dependency-free static PWA implementing all 11 spec screens, with calendar connection and the AI proposal engine mocked so the full flow works end-to-end. See [UA0 — Project status](UA0-PROJECT-STATUS.md) for full history.
+- **Current stage:** Stage 1 — Positioning & Research Planning (Pass 1)
+- **Current pass / activity:** Pass 1 — drafting the Moore positioning statement (`ua2-positioning-statement.md`)
+- **Last status update:** 2026-06-15
+- **Most recent checkpoint:** Candidate opportunity confirmed: AI-assisted shared calendar for scheduling events with friends, factoring in existing commitments and activity preferences. Stage 0 complete; starting Stage 1 Pass 1.
 
 ## Documents
 
@@ -30,10 +28,22 @@ itself (see "Build" below).
 
 ### Stage 1 — Discovery
 
-- [ua2 — Positioning statement](ua2-positioning-statement.md) — Complete. All seven Moore positioning clauses, each evidenced by interview or refined by research.
-- [ua3 — Research plan](ua3-research-plan.md) — Complete. Desk research that refined six of the seven positioning clauses.
-- [ua4 — Interview plan](ua4-interview-plan.md) — Complete. Recruiting, question areas, and falsification commitments for three interviews.
+Confirmed opportunity (AI-assisted shared calendar for scheduling with
+friends). `ua2-positioning-statement.md` (Moore positioning statement) is
+being drafted now, one clause at a time.
 
 ### Stage 2 — Analysis
 
-- [ua5 — Stage 2 analysis](ua5-stage
+Not started yet.
+
+### Stage 3 — Specification
+
+Not started yet.
+
+### Project status file
+
+- [UA0 — Project status](UA0-PROJECT-STATUS.md) — agent-maintained record of where the project is; currently Stage 0 (opportunity discovery), capturing friction and candidate opportunities
+
+---
+
+*Maintained by the `update-jekyll-index` skill. Last updated: 2026-06-15.*
