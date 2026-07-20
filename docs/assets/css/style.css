@@ -1,0 +1,249 @@
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f6f5fd;
+  --text: #1c1b29;
+  --text-muted: #5c5a72;
+  --accent: #5b4cf0;
+  --accent-dark: #4638c9;
+  --border: #e4e2f3;
+  --code-bg: #f1effa;
+  --shadow: 0 1px 3px rgba(28, 27, 41, 0.08);
+  --radius: 10px;
+  --max-width: 760px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16151f;
+    --bg-alt: #1d1c29;
+    --text: #eceafb;
+    --text-muted: #a6a3c2;
+    --accent: #a196ff;
+    --accent-dark: #c3bbff;
+    --border: #2c2a3f;
+    --code-bg: #221f33;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  max-width: 920px;
+}
+
+.site-header .brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.site-header nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.site-header nav a:hover {
+  color: var(--accent);
+}
+
+/* Hero (home page only) */
+
+.hero {
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: #fff;
+  padding: 56px 0 48px;
+  margin-bottom: 8px;
+}
+
+.hero .wrap {
+  max-width: 920px;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 2.4rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.hero .tagline {
+  margin: 0;
+  font-size: 1.15rem;
+  opacity: 0.92;
+  max-width: 42ch;
+}
+
+/* Content */
+
+.content {
+  padding: 40px 0 32px;
+  max-width: 920px;
+}
+
+.content h1:first-child {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.4rem; margin-top: 2.4em; }
+h3 { font-size: 1.15rem; margin-top: 1.8em; }
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-dark);
+}
+
+p, ul, ol {
+  color: var(--text);
+}
+
+.content > p:first-of-type,
+.content > h2 + p {
+  color: var(--text);
+}
+
+strong {
+  color: var(--text);
+}
+
+code {
+  background: var(--code-bg);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.88em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+pre {
+  background: var(--code-bg);
+  padding: 16px;
+  border-radius: var(--radius);
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+blockquote {
+  margin: 1.5em 0;
+  padding: 0.6em 1.2em;
+  border-left: 3px solid var(--accent);
+  background: var(--bg-alt);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--text-muted);
+}
+
+blockquote p {
+  margin: 0.4em 0;
+}
+
+blockquote em {
+  color: var(--text);
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--bg-alt);
+  font-weight: 600;
+}
+
+tr:nth-child(even) td {
+  background: var(--bg-alt);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5em 0;
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0 40px;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.site-footer a {
+  color: var(--text-muted);
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+}

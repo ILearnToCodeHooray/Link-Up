@@ -1,9 +1,15 @@
-title: User Research Project
+title: Link Up
 description: >-
   Structured user research with the ua-framework — the published record of
   a project moving from opportunity discovery through specification.
 
-theme: jekyll-theme-cayman
+# Custom, self-contained layouts + CSS live in _layouts/ and assets/css/.
+# Deliberately not using a gem-based `theme:` here — that requires the
+# theme gem to resolve correctly in whatever environment builds the site,
+# and a resolution failure fails silently (Jekyll just skips the layout
+# rather than erroring), which is exactly what happened with
+# jekyll-theme-cayman under the GitHub Actions build. Hand-rolled layouts
+# have no such dependency.
 
 # Files at the top level of docs/ are the UA documents. List them with
 # their generated paths so links from index.md work.

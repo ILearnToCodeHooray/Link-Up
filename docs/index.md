@@ -4,8 +4,6 @@ layout: home
 last_updated: 2026-07-20
 ---
 
-# Link Up
-
 Link Up is a group scheduling app for friend groups who want to actually
 get together but keep losing plans to scheduling back-and-forth. Instead
 of a group text where everyone manually checks their own calendar and
